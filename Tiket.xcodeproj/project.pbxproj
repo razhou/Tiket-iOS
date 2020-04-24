@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		073C9DB19DC96F9B72863893 /* Pods_Tiket_TiketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB5D7F7479EB1D9C5779415 /* Pods_Tiket_TiketUITests.framework */; };
+		5D4B24E724512CE600003639 /* HeroElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B24E624512CE600003639 /* HeroElement.swift */; };
+		5D4B24F82451E0F400003639 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B24F62451E0F400003639 /* HeroCell.swift */; };
+		5D4B24F92451E0F400003639 /* HeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4B24F72451E0F400003639 /* HeroCell.xib */; };
+		5D4B24FB2451E9D000003639 /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B24FA2451E9D000003639 /* UIImageViewExt.swift */; };
+		5D4B24FD2451EC3100003639 /* ComboTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B24FC2451EC3100003639 /* ComboTextField.swift */; };
+		5D4B25002451EEA700003639 /* EmptyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B24FF2451EEA700003639 /* EmptyPage.swift */; };
+		5D4B25022451EEB200003639 /* EmptyPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4B25012451EEB200003639 /* EmptyPage.xib */; };
+		5D4B25052451F0F900003639 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B25042451F0F900003639 /* BaseViewController.swift */; };
+		5D4B25082451F41700003639 /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B25072451F41700003639 /* HomeCollectionView.swift */; };
+		5D5F27F4245082DB00370F73 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F27F3245082DB00370F73 /* ApiError.swift */; };
+		5D5F27FD24508CA200370F73 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F27FC24508CA200370F73 /* ApiPath.swift */; };
+		5D5F28012450930200370F73 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F28002450930200370F73 /* HomeViewModel.swift */; };
+		5D5F28032450955200370F73 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F28022450955200370F73 /* UIViewControllerExt.swift */; };
+		5D5F28072450977C00370F73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F28052450977C00370F73 /* HomeViewController.swift */; };
+		5D5F28082450977C00370F73 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5F28062450977C00370F73 /* HomeViewController.xib */; };
+		5D5F280A245098D000370F73 /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F2809245098D000370F73 /* NSObjectExt.swift */; };
 		5DFCE751244F4713008A0600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE750244F4713008A0600 /* AppDelegate.swift */; };
 		5DFCE755244F4713008A0600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE754244F4713008A0600 /* ViewController.swift */; };
 		5DFCE758244F4713008A0600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCE756244F4713008A0600 /* Main.storyboard */; };
@@ -16,6 +32,7 @@
 		5DFCE768244F4719008A0600 /* TiketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE767244F4719008A0600 /* TiketTests.swift */; };
 		5DFCE773244F4719008A0600 /* TiketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE772244F4719008A0600 /* TiketUITests.swift */; };
 		5DFCE786244F59E8008A0600 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE785244F59E8008A0600 /* NetworkService.swift */; };
+		5DFCE789244F5BEB008A0600 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCE788244F5BEB008A0600 /* Constants.swift */; };
 		E0FD82FBD1EA7A1932D0E49D /* Pods_Tiket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F936B9FBAAF3621A0559ED /* Pods_Tiket.framework */; };
 		E18B6A1819CE639D58287877 /* Pods_TiketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47AE65091AC85E7BAE09C22 /* Pods_TiketTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +58,22 @@
 		0F82957EB7C42298D068FA63 /* Pods-Tiket-TiketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket-TiketUITests.release.xcconfig"; path = "Target Support Files/Pods-Tiket-TiketUITests/Pods-Tiket-TiketUITests.release.xcconfig"; sourceTree = "<group>"; };
 		22D408B6D2A2B80C3C116EEA /* Pods-TiketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketTests.release.xcconfig"; path = "Target Support Files/Pods-TiketTests/Pods-TiketTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CB5D7F7479EB1D9C5779415 /* Pods_Tiket_TiketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_TiketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4B24E624512CE600003639 /* HeroElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroElement.swift; sourceTree = "<group>"; };
+		5D4B24F62451E0F400003639 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		5D4B24F72451E0F400003639 /* HeroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroCell.xib; sourceTree = "<group>"; };
+		5D4B24FA2451E9D000003639 /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		5D4B24FC2451EC3100003639 /* ComboTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboTextField.swift; sourceTree = "<group>"; };
+		5D4B24FF2451EEA700003639 /* EmptyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPage.swift; sourceTree = "<group>"; };
+		5D4B25012451EEB200003639 /* EmptyPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyPage.xib; sourceTree = "<group>"; };
+		5D4B25042451F0F900003639 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5D4B25072451F41700003639 /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
+		5D5F27F3245082DB00370F73 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		5D5F27FC24508CA200370F73 /* ApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
+		5D5F28002450930200370F73 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5D5F28022450955200370F73 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		5D5F28052450977C00370F73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D5F28062450977C00370F73 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5D5F2809245098D000370F73 /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
 		5D6C8488BE60DDA7A94AD681 /* Pods-Tiket-TiketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket-TiketUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tiket-TiketUITests/Pods-Tiket-TiketUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFCE74D244F4713008A0600 /* Tiket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFCE750244F4713008A0600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +89,7 @@
 		5DFCE772244F4719008A0600 /* TiketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiketUITests.swift; sourceTree = "<group>"; };
 		5DFCE774244F4719008A0600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFCE785244F59E8008A0600 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5DFCE788244F5BEB008A0600 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6C0DB92DDED60164F29BD1FD /* Pods-Tiket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket.release.xcconfig"; path = "Target Support Files/Pods-Tiket/Pods-Tiket.release.xcconfig"; sourceTree = "<group>"; };
 		A5CAB77E3D17408F0F628704 /* Pods-Tiket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket.debug.xcconfig"; path = "Target Support Files/Pods-Tiket/Pods-Tiket.debug.xcconfig"; sourceTree = "<group>"; };
 		C4824A06968F69EFC88A6B9B /* Pods-TiketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketTests.debug.xcconfig"; path = "Target Support Files/Pods-TiketTests/Pods-TiketTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +125,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4B24F52451E0C200003639 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B24F62451E0F400003639 /* HeroCell.swift */,
+				5D4B24F72451E0F400003639 /* HeroCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		5D4B24FE2451EE6A00003639 /* EmptyPage */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B24FF2451EEA700003639 /* EmptyPage.swift */,
+				5D4B25012451EEB200003639 /* EmptyPage.xib */,
+			);
+			path = EmptyPage;
+			sourceTree = "<group>";
+		};
+		5D4B25032451F0DF00003639 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B25042451F0F900003639 /* BaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		5D4B25062451F3EF00003639 /* CollectionViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B24F52451E0C200003639 /* cell */,
+				5D4B25072451F41700003639 /* HomeCollectionView.swift */,
+			);
+			path = CollectionViewAdapter;
+			sourceTree = "<group>";
+		};
+		5D5F27F5245084DE00370F73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F28042450975A00370F73 /* ViewController */,
+				5D5F27FE245092D600370F73 /* ViewModel */,
+				5D5F27F9245087A800370F73 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5D5F27F9245087A800370F73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B24E624512CE600003639 /* HeroElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D5F27FE245092D600370F73 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F28002450930200370F73 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D5F28042450975A00370F73 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D4B25062451F3EF00003639 /* CollectionViewAdapter */,
+				5D5F28052450977C00370F73 /* HomeViewController.swift */,
+				5D5F28062450977C00370F73 /* HomeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		5DFCE744244F4713008A0600 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +254,8 @@
 		5DFCE780244F5867008A0600 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5D4B25032451F0DF00003639 /* BaseController */,
+				5DFCE787244F5BD8008A0600 /* Help */,
 				5DFCE784244F58CA008A0600 /* Extention */,
 				5DFCE783244F58C2008A0600 /* View */,
 				5DFCE782244F587D008A0600 /* NetworkService */,
@@ -159,6 +266,7 @@
 		5DFCE781244F5872008A0600 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				5D5F27F5245084DE00370F73 /* Home */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -167,6 +275,8 @@
 			isa = PBXGroup;
 			children = (
 				5DFCE785244F59E8008A0600 /* NetworkService.swift */,
+				5D5F27F3245082DB00370F73 /* ApiError.swift */,
+				5D5F27FC24508CA200370F73 /* ApiPath.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -174,6 +284,8 @@
 		5DFCE783244F58C2008A0600 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5D4B24FE2451EE6A00003639 /* EmptyPage */,
+				5D4B24FC2451EC3100003639 /* ComboTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,8 +293,19 @@
 		5DFCE784244F58CA008A0600 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				5D5F28022450955200370F73 /* UIViewControllerExt.swift */,
+				5D5F2809245098D000370F73 /* NSObjectExt.swift */,
+				5D4B24FA2451E9D000003639 /* UIImageViewExt.swift */,
 			);
 			path = Extention;
+			sourceTree = "<group>";
+		};
+		5DFCE787244F5BD8008A0600 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				5DFCE788244F5BEB008A0600 /* Constants.swift */,
+			);
+			path = Help;
 			sourceTree = "<group>";
 		};
 		DE233A73C2E44C1AAF1DF622 /* Frameworks */ = {
@@ -320,6 +443,9 @@
 				5DFCE75D244F4719008A0600 /* LaunchScreen.storyboard in Resources */,
 				5DFCE75A244F4719008A0600 /* Assets.xcassets in Resources */,
 				5DFCE758244F4713008A0600 /* Main.storyboard in Resources */,
+				5D5F28082450977C00370F73 /* HomeViewController.xib in Resources */,
+				5D4B25022451EEB200003639 /* EmptyPage.xib in Resources */,
+				5D4B24F92451E0F400003639 /* HeroCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +574,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFCE755244F4713008A0600 /* ViewController.swift in Sources */,
+				5D5F28012450930200370F73 /* HomeViewModel.swift in Sources */,
+				5D5F28032450955200370F73 /* UIViewControllerExt.swift in Sources */,
+				5D4B24F82451E0F400003639 /* HeroCell.swift in Sources */,
+				5D4B24FD2451EC3100003639 /* ComboTextField.swift in Sources */,
 				5DFCE786244F59E8008A0600 /* NetworkService.swift in Sources */,
+				5D5F27FD24508CA200370F73 /* ApiPath.swift in Sources */,
+				5D5F28072450977C00370F73 /* HomeViewController.swift in Sources */,
 				5DFCE751244F4713008A0600 /* AppDelegate.swift in Sources */,
+				5D4B24FB2451E9D000003639 /* UIImageViewExt.swift in Sources */,
+				5D5F280A245098D000370F73 /* NSObjectExt.swift in Sources */,
+				5D4B25002451EEA700003639 /* EmptyPage.swift in Sources */,
+				5D4B25082451F41700003639 /* HomeCollectionView.swift in Sources */,
+				5D5F27F4245082DB00370F73 /* ApiError.swift in Sources */,
+				5D4B25052451F0F900003639 /* BaseViewController.swift in Sources */,
+				5DFCE789244F5BEB008A0600 /* Constants.swift in Sources */,
+				5D4B24E724512CE600003639 /* HeroElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +765,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YK52W7Z6K7;
-				End_Point = "https://api.opendota.com/api/herostats";
+				End_Points = "https://api.opendota.com";
 				INFOPLIST_FILE = Tiket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -645,7 +785,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YK52W7Z6K7;
-				End_Point = "https://api.opendota.com/api/herostats";
+				End_Points = "https://api.opendota.com";
 				INFOPLIST_FILE = Tiket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

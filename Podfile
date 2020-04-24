@@ -9,11 +9,10 @@ target 'Tiket' do
   pod 'AlamofireNetworkActivityLogger'
   pod 'Alamofire', '~> 4.7'
   pod 'ObjectMapper', '~> 3.4'
-  pod 'Moya', '~> 13.0'
-  pod 'RxSwift', '~> 4'
-  pod 'RxCocoa', '~> 4'
-  pod 'SVProgressHUD','~> 2.2.5'
+  pod 'SnapKit','~> 4.2.0'
+  pod 'MBProgressHUD'
   pod 'Kingfisher','~> 5.7.1'
+  pod 'RealmSwift'
 
   target 'TiketTests' do
     inherit! :search_paths

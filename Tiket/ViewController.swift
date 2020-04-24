@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let vc = HomeViewController.init(nibName: HomeViewController.stringRepresentation, bundle: nil)
+        let nav = UINavigationController(rootViewController:vc)
+      
     }
 
 
