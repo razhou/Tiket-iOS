@@ -1,6 +1,0 @@
-framework module Pods_Tiket_TiketUITests {
-  umbrella header "Pods-Tiket-TiketUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
